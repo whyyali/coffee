@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
 const TabIcon = ({name, size, color}) => {
@@ -10,5 +10,3 @@ const TabIcon = ({name, size, color}) => {
 }
 
 export default TabIcon
-
-const styles = StyleSheet.create({})
