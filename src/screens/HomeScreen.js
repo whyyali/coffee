@@ -117,7 +117,7 @@ const HomeScreen = ({navigation}) => {
          }
          renderItem={({item}) => {
            return(
-            <TouchableOpacity onPress={()=>{navigation.push("Details"), {index:item.index, id:item.id, type:item.type}}}>
+            <TouchableOpacity onPress={() => {navigation.push('Details', {index: item.index, id: item.id, type: item.type,});}}>
               <Card 
                id={item.id}
                type={item.type}
